@@ -1,0 +1,50 @@
+@import "./fonts.scss";
+@import "./globls.scss";
+@import "./container.scss";
+
+//===================================== CARD START =====================================//
+
+.card {
+    width: 263px;
+    height: 370px;
+    background-color: #FF4F52;
+    border-radius: 10px;
+    padding: 30px 25px 18px 25px;
+
+    img {
+        margin-left: 55px;
+        margin-bottom: 19px;
+    }
+
+    h1 {
+        color: #FFC4C9;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin: 0 auto;
+        width: 257px;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        margin-bottom: 27px;
+    }
+
+    .card-img {
+        margin-left: 122px;
+    }
+}
+
+//===================================== CARD END =====================================//
